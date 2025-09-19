@@ -7,7 +7,7 @@ const HowItWorksPage = () => {
   return (
     <div className="main-wrapper-how-it-works-page">
       <div className="how-it-work-top-box relative">
-        <section className="how-it-works-banner pt-[157px] md:pt-[231px]  pb-16 md:pb-24 lg:pb-[158px]">
+        <section className="how-it-works-banner pt-[145px] md:pt-[170px]  pb-16 md:pb-24 lg:pb-[158px]">
           <div className="custom-container">
             <div className="how-it-works-cont relative z-[99]">
               <h1 className="banner-title text-[49px] md:text-[52px] lg:text-[65px] xl:text-[80px] text-center text-mono-0 font-normal font-primary leading-[100%]">

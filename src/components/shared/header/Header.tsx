@@ -291,7 +291,7 @@ const HeaderSection: React.FC = () => {
             </div>
 
             {/* Desktop menu */}
-            <ul className="nav-manu-list hidden lg:flex flex-col lg:flex-row gap-[15px] items-center ld:gap-[15px] pb-1">
+            <ul className="nav-manu-list hidden lg:flex flex-col lg:flex-row gap-[15px] items-center lg:gap-[18px] pb-1">
               {navItems.map(item => (
                 <li key={item.href}>
                   <Link
