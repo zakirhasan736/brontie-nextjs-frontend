@@ -135,7 +135,7 @@ const FooterSection = () => {
               <form action="" className="subscriptions-form mt-5 xl:mt-[33px]">
                 <label
                   htmlFor="email"
-                  className="max-w-[428px] block relative w-full rounded-full"
+                  className="max-w-[428px] block relative overflow-hidden w-full rounded-full"
                 >
                   <input
                     type="email"
@@ -145,7 +145,7 @@ const FooterSection = () => {
                   <div className="submit-button absolute top-0 right-0 rounded-full overflow-hidden max-w-[139px] md:max-w-[120px] flex justify-center lg:max-w-[166px] w-full">
                     <input
                       type="submit"
-                      className="bg-primary-100 font-secondary text-[16px] lg:text-[18px] cursor-pointer text-mono-0 pt-3 pb-3 md:pt-[17px] md:pb-[12px] lg:pl-[40px] lg:pr-[39px] px-4  md:h-[54px] h-[45px] max-w-[139px] md:max-w-[120px] flex justify-center lg:max-w-[166px] w-full rounded-full"
+                      className="bg-primary-100 font-secondary hover:opacity-90 text-[16px] lg:text-[18px] cursor-pointer text-mono-0 pt-3 pb-4 md:pt-[14px] md:pb-[12px] lg:pl-[40px] lg:pr-[39px] px-4  md:h-[54px] h-[45px] max-w-[139px] md:max-w-[120px] flex justify-center lg:max-w-[166px] w-full rounded-full"
                       value="Subscribe"
                     />
                   </div>

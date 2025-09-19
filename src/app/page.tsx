@@ -38,7 +38,7 @@ export default function Home() {
                     />
                     <div className="button-item relative">
                       <Link
-                        className="bg-mono-0 flex relative z-[9] items-center max-w-[185px] h-[51px] md:h-auto md:max-w-[305px] w-full justify-center py-4 pl-[18px] pr-[15px] md:py-[27px] md:pl-[35px] md:pr-[19px] rounded-[11px] text-[14px] md:text-[22px] text-center font-secondary font-normal leading-[1]"
+                        className="bg-mono-0 hover:opacity-70 flex relative z-[9] items-center max-w-[185px] h-[51px] md:h-auto md:max-w-[305px] w-full justify-center py-4 pl-[18px] pr-[15px] md:py-[27px] md:pl-[35px] md:pr-[19px] rounded-[11px] text-[14px] md:text-[22px] text-center font-secondary font-normal leading-[1]"
                         href="/how-it-works"
                       >
                         Gift a Brontie today →
@@ -252,7 +252,7 @@ export default function Home() {
               </div>
               <Link
                 href="/hoq-it-works"
-                className="font-secondary font-normal mt-0 md:mt-[36px] xl:h-[84px]  h-[50px] md:h-[58px] flex items-center justify-center leading-[1] text-[14px]  md:text-[18px] lg:text-[20px] xl:text-[22px] text-center text-mono-100 bg-secondary-100 max-w-[162px] md:max-w-[230px] xl:max-w-[272px] w-full ml-0 rounded-[12px] xl:rounded-[18px] py-3 xl:py-[27px] pl-[32px] pr-[17px]"
+                className="font-secondary hover:opacity-70 font-normal mt-0 md:mt-[36px] xl:h-[84px]  h-[50px] md:h-[58px] flex items-center justify-center leading-[1] text-[14px]  md:text-[18px] lg:text-[20px] xl:text-[22px] text-center text-mono-100 bg-secondary-100 max-w-[162px] md:max-w-[230px] xl:max-w-[272px] w-full ml-0 rounded-[12px] xl:rounded-[18px] py-3 xl:py-[27px] pl-[32px] pr-[17px]"
               >
                 Go to Gifts →
               </Link>
@@ -359,7 +359,7 @@ export default function Home() {
                   way to deliver a kind gesture: this is how new users...
                 </p>
                 <button
-                  className="type-read-more mt-[16px] cursor-pointer text-primary-100 underline text-[12px] md:text-[16px] lg:text-[19px] xl:text-[21px] text-left font-bold font-secondary leading-[130%]"
+                  className="type-read-more hover:text-secondary-100 mt-[16px] cursor-pointer text-primary-100 underline text-[12px] md:text-[16px] lg:text-[19px] xl:text-[21px] text-left font-bold font-secondary leading-[130%]"
                   type="button"
                 >
                   Read more
@@ -385,7 +385,7 @@ export default function Home() {
                   at Willow & Wild Café...
                 </p>
                 <button
-                  className="type-read-more mt-[16px] cursor-pointer text-primary-100 underline text-[12px] md:text-[16px] lg:text-[19px] xl:text-[21px] text-left font-bold font-secondary leading-[130%]"
+                  className="type-read-more hover:text-secondary-100 mt-[16px] cursor-pointer text-primary-100 underline text-[12px] md:text-[16px] lg:text-[19px] xl:text-[21px] text-left font-bold font-secondary leading-[130%]"
                   type="button"
                 >
                   Read more
@@ -395,7 +395,7 @@ export default function Home() {
           </div>
           <Link
             href="/how-it-works"
-            className="font-secondary relative z-[99] mx-auto font-normal mt-[37px] md:mt-[42px] xl:h-[84px] h-[50px] md:h-[58px] flex items-center justify-center leading-[1] text-[14px] md:text-[20px] xl:text-[22px] text-center text-mono-100 bg-secondary-100 max-w-[162px] md:max-w-[230px] xl:max-w-[272px] w-full rounded-[10px] md:rounded-[12px] xl:rounded-[18px] py-3 xl:py-[27px] pl-[32px] pr-[17px]"
+            className="font-secondary hover:opacity-70 relative z-[99] mx-auto font-normal mt-[37px] md:mt-[42px] xl:h-[84px] h-[50px] md:h-[58px] flex items-center justify-center leading-[1] text-[14px] md:text-[20px] xl:text-[22px] text-center text-mono-100 bg-secondary-100 max-w-[162px] md:max-w-[230px] xl:max-w-[272px] w-full rounded-[10px] md:rounded-[12px] xl:rounded-[18px] py-3 xl:py-[27px] pl-[32px] pr-[17px]"
           >
             Go to Gifts →
           </Link>
@@ -690,7 +690,7 @@ export default function Home() {
                   <input
                     type="submit"
                     value="Send Request"
-                    className="h-[44px] xl:h-[84px] md:h-[65px] max-w-[202px] md:max-w-[386px] w-full text-[12px] md:text-[22px] lg:text-[24px] xl:text-[28px] text-center flex justify-center items-center text-mono-100 font-normal font-secondary leading-[100%] bg-secondary-100 rounded-[10px] md:rounded-[12px] xl:rounded-[18px] mx-auto"
+                    className="h-[44px] hover:opacity-70 cursor-pointer xl:h-[84px] md:h-[65px] max-w-[202px] md:max-w-[386px] w-full text-[12px] md:text-[22px] lg:text-[24px] xl:text-[28px] text-center flex justify-center items-center text-mono-100 font-normal font-secondary leading-[100%] bg-secondary-100 rounded-[10px] md:rounded-[12px] xl:rounded-[18px] mx-auto"
                   />
                 </div>
               </form>
@@ -714,7 +714,7 @@ export default function Home() {
               </h2>
               <div className="button-item relative mt-8 md:mt-9 lg:mt-[50px]">
                 <Link
-                  className="bg-secondary-100 flex relative z-[9] h-[49px] md:h-[60px] lg:h-[79px] items-center max-w-[305px] w-full justify-center py-4 md:py-5 xl:py-[27px] pl-[35px] pr-[19px] rounded-[11px] text-[12px] md:text-[18px] lg:text-[22px] text-center font-secondary font-normal leading-[1]"
+                  className="bg-secondary-100 hover:opacity-70 flex relative z-[9] h-[49px] md:h-[60px] lg:h-[79px] items-center max-w-[305px] w-full justify-center py-4 md:py-5 xl:py-[27px] pl-[35px] pr-[19px] rounded-[11px] text-[12px] md:text-[18px] lg:text-[22px] text-center font-secondary font-normal leading-[1]"
                   href="/how-it-works"
                 >
                   Gift a Brontie today →

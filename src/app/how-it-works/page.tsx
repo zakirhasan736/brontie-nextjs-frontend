@@ -131,7 +131,7 @@ const HowItWorksPage = () => {
               </div>
               <div className="categories-section-wrapper max-w-[1169px] mx-auto relative z-[99]">
                 <ul className="available-category-lists flex flex-col gap-5 md:gap-6 lg:gap-[29px]">
-                  <li className="category-list-item relative ">
+                  <li className="category-list-item relative hover:-top-[8px] top-0 transition-all ease-in-out duration-500 ">
                     <Link
                       href="/"
                       className="flex items-center gap-5 justify-between border-[3px] border-[#6A9D9E] rounded-[12px] py-[10px] pl-[10px] pr-[17px] bg-mono-0"
@@ -161,7 +161,7 @@ const HowItWorksPage = () => {
                       />
                     </Link>
                   </li>
-                  <li className="category-list-item relative ">
+                  <li className="category-list-item relative  top-0 transition-all ease-in-out duration-500 ">
                     <Link
                       href="/"
                       className="flex cursor-not-allowed items-center gap-5 justify-between border-[3px] border-[#6A9D9E] rounded-[12px] py-[10px] pl-[10px] pr-[17px] bg-mono-0 opacity-[33%]"
@@ -197,7 +197,7 @@ const HowItWorksPage = () => {
                       Upcoming{' '}
                     </button>
                   </li>
-                  <li className="category-list-item relative ">
+                  <li className="category-list-item relative  top-0 transition-all ease-in-out duration-500 ">
                     <Link
                       href="/"
                       className="flex items-center  cursor-not-allowed gap-5 justify-between border-[3px] border-[#6A9D9E] rounded-[12px] py-[10px] pl-[10px] pr-[17px] bg-mono-0 opacity-[33%]"
@@ -330,7 +330,7 @@ const HowItWorksPage = () => {
                         </div>
                         <Link
                           href="/gift"
-                          className="rounded-[9px] lg:rounded-[13px]  py-3 h-[46px] lg:h-[57px] max-w-[333px] mx-auto bg-secondary-100 w-full flex items-center mt-[20px] justify-center text-[15px] text-center text-mono-100 font-normal font-secondary leading-[100%] px-[21px]"
+                          className="hover:opacity-85 rounded-[9px] lg:rounded-[13px]  py-3 h-[46px] lg:h-[57px] max-w-[333px] mx-auto bg-secondary-100 w-full flex items-center mt-[20px] justify-center text-[15px] text-center text-mono-100 font-normal font-secondary leading-[100%] px-[21px]"
                         >
                           Purchase Gift →
                         </Link>
@@ -409,7 +409,7 @@ const HowItWorksPage = () => {
                         </div>
                         <Link
                           href="/gift"
-                          className="rounded-[9px] lg:rounded-[13px]  py-3 h-[46px] lg:h-[57px] max-w-[333px] mx-auto bg-secondary-100 w-full flex items-center mt-[20px] justify-center text-[15px] text-center text-mono-100 font-normal font-secondary leading-[100%] px-[21px]"
+                          className="hover:opacity-85 rounded-[9px] lg:rounded-[13px]  py-3 h-[46px] lg:h-[57px] max-w-[333px] mx-auto bg-secondary-100 w-full flex items-center mt-[20px] justify-center text-[15px] text-center text-mono-100 font-normal font-secondary leading-[100%] px-[21px]"
                         >
                           Purchase Gift →
                         </Link>
@@ -488,7 +488,7 @@ const HowItWorksPage = () => {
                         </div>
                         <Link
                           href="/gift"
-                          className="rounded-[9px] lg:rounded-[13px]  py-3 h-[46px] lg:h-[57px] max-w-[333px] mx-auto bg-secondary-100 w-full flex items-center mt-[20px] justify-center text-[15px] text-center text-mono-100 font-normal font-secondary leading-[100%] px-[21px]"
+                          className="hover:opacity-85 rounded-[9px] lg:rounded-[13px]  py-3 h-[46px] lg:h-[57px] max-w-[333px] mx-auto bg-secondary-100 w-full flex items-center mt-[20px] justify-center text-[15px] text-center text-mono-100 font-normal font-secondary leading-[100%] px-[21px]"
                         >
                           Purchase Gift →
                         </Link>
@@ -498,7 +498,7 @@ const HowItWorksPage = () => {
                   </div>
                   <Link
                     href="/gift"
-                    className="rounded-[13px] h-[55px] max-w-[200px] mx-auto bg-transparent border border-secondary-100 w-full flex items-center mt-[28px] justify-center text-[15px] text-center text-mono-100 font-normal font-secondary leading-[100%] px-[21px]"
+                    className="rounded-[13px] hover:bg-secondary-100 h-[55px] max-w-[200px] mx-auto bg-transparent border border-secondary-100 w-full flex items-center mt-[28px] justify-center text-[15px] text-center text-mono-100 font-normal font-secondary leading-[100%] px-[21px]"
                   >
                     Explore more Gifts →
                   </Link>
@@ -516,7 +516,7 @@ const HowItWorksPage = () => {
               </h2>
               <div className="button-item relative mt-8 md:mt-9 lg:mt-[50px]">
                 <Link
-                  className="bg-secondary-100 flex relative z-[9] h-[49px] md:h-[60px] lg:h-[79px] items-center max-w-[305px] w-full justify-center py-4 md:py-5 xl:py-[27px] pl-[35px] pr-[19px] rounded-[11px] text-[12px] md:text-[18px] lg:text-[22px] text-center font-secondary font-normal leading-[1]"
+                  className="bg-secondary-100 hover:opacity-85 flex relative z-[9] h-[49px] md:h-[60px] lg:h-[79px] items-center max-w-[305px] w-full justify-center py-4 md:py-5 xl:py-[27px] pl-[35px] pr-[19px] rounded-[11px] text-[12px] md:text-[18px] lg:text-[22px] text-center font-secondary font-normal leading-[1]"
                   href="/gift"
                 >
                   Gift a Brontie today →
