@@ -401,7 +401,16 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <section className="socials-testimonials xl:pt-[120px] pt-16 md:pt-20 pb-20 md:pb-[60px]">
+      <section className="socials-testimonials xl:pt-[120px] pt-16 md:pt-20 pb-20 md:pb-[60px] overflow-hidden">
+        <div className="shape-icon-box relative max-w-[1763px] mx-auto">
+          <Image
+            src="/images/shape/coffee-tree.png"
+            alt="banner lest shape layer model"
+            width={341}
+            height={237}
+            className="banner-left-shape-layer absolute top-12 -left-12 md:top-0 lg:top-0 xl:-top-0 z-[96] md:-left-14 lg:-left-20 xl:-left-10 xl:w-[321px] w-[156px] md:w-[200px] lg:w-[250px]"
+          />
+        </div>
         <div className="custom-container">
           <div className="section-content mb-10 md:mb-[33px]">
             <h2 className="title text-[35px] md:text-[48px] lg:text-[56px] xl:text-[67px] text-center font-normal font-primary text-mono-100 leading-[100%]">

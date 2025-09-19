@@ -12,9 +12,7 @@ const HowItWorksPage = () => {
               <h1 className="banner-title text-[49px] md:text-[52px] lg:text-[65px] xl:text-[80px] text-center text-mono-0 font-normal font-primary leading-[100%]">
                 How to Send a{' '}
                 <span className="text-img-box relative items-center">
-                  <span className="!text-mono-100">
-                    Brontie Gift
-                  </span>{' '}
+                  <span className="!text-mono-100">Brontie Gift</span>{' '}
                 </span>
               </h1>
               <p className="text-[16px] md:text-[18px] lg:text-[22px] xl:text-[26px] text-center font-normal font-secondary text-mono-0 mt-[6px] leading-130%]">
@@ -128,7 +126,7 @@ const HowItWorksPage = () => {
             <div className="custom-container">
               <div className="section-content relative z-[99] mb-[33px]">
                 <h2 className="title text-[35px] md:text-[48px] lg:text-[56px] xl:text-[67px] text-center text-mono-100 font-normal font-primary leading-[100%]">
-                  Sign up with Other Categories
+                  Discover Gifts by Category
                 </h2>
               </div>
               <div className="categories-section-wrapper max-w-[1169px] mx-auto relative z-[99]">
