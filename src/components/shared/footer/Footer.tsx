@@ -163,15 +163,15 @@ const FooterSection = () => {
         </p>
         <ul className="link-lists flex gap-1 xl:gap-3 items-center">
           <li className="link-items whitespace-nowrap text-mono-100 text-[14px] md:text-[16px] xl:text-[18px] text-left font-normal font-secondary leading-[110%]">
-            <Link href="/term-condition">Terms & Conditions</Link>
+            <Link href="/term-condition" className='hover:text-primary-100'>Terms & Conditions</Link>
           </li>
           |
           <li className="link-items whitespace-nowrap text-mono-100 text-[14px] md:text-[16px] xl:text-[18px] text-left font-normal font-secondary leading-[110%]">
-            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/privacy-policy" className='hover:text-primary-100'>Privacy Policy</Link>
           </li>
           |
           <li className="link-items whitespace-nowrap text-mono-100 text-[14px] md:text-[16px] xl:text-[18px] text-left font-normal font-secondary leading-[110%]">
-            <Link href="/cookies-policy">Cookie Policy</Link>
+            <Link href="/cookies-policy" className='hover:text-primary-100'>Cookie Policy</Link>
           </li>
         </ul>
       </div>
