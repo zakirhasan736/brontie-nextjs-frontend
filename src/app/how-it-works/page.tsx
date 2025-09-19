@@ -12,7 +12,7 @@ const HowItWorksPage = () => {
               <h1 className="banner-title text-[49px] md:text-[52px] lg:text-[65px] xl:text-[80px] text-center text-mono-0 font-normal font-primary leading-[100%]">
                 How to Send a{' '}
                 <span className="text-img-box relative items-center">
-                  <span className="shape-text !text-mono-100">
+                  <span className="!text-mono-100">
                     Brontie Gift
                   </span>{' '}
                 </span>

@@ -4,63 +4,75 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="home-page-main-wrapper">
-      <div className="bg-wrapper-area">
-        <section className="banner-section overflow-hidden pt-[126px] md:pt-[165px] md:pb-[80px] relative z-[99]">
-          <div className="custom-container">
-            <div className="banner-wrapper w-full flex flex-col md:flex-row items-center justify-between gap-4 md:gap-6">
-              <div className="banner-left-cont max-w-[635px] w-full">
-                <h1 className="title text-mono-0 leading-[1.2] text-normal text-[101px]">
-                  Send a <span className="color-text">coffee</span> in <br />
-                  <span className="text-img-box flex relative left-[-42px] items-center">
-                    <span className="shape-text color-text">Seconds.</span>{' '}
+      <div className="bg-wrapper-area overflow-hidden">
+        <section className="banner-section relative">
+          <div className="banner-main-cont-box overflow-hidden pt-26 md:pt-[126px] lg:pt-[165px] md:pb-26 xl:pb-[80px] relative z-[99]">
+            <div className="custom-container">
+              <div className="banner-wrapper w-full flex flex-col md:flex-row items-center justify-between gap-6 md:gap-6">
+                <div className="banner-left-cont max-w-[635px] w-full">
+                  <h1 className="title text-mono-0 leading-[1.2] text-normal text-[101px]">
+                    Send a <span className="color-text">coffee</span> in <br />
+                    <span className="text-img-box flex relative items-center">
+                      {/* shape-text */}
+                      <span className="color-text">Seconds.</span>{' '}
+                      <Image
+                        src="/images/icons/coffee-small-icon.svg"
+                        width={510}
+                        height={489}
+                        alt="icon"
+                        className="w-[119px]  hidden  md:block"
+                      />
+                    </span>
+                  </h1>
+                  <p className="desc text-[14px] nd:text-[20px] xl:text-[22px] font-normal md:max-w-[490px] leading-[130%] mt-4 md:mt-3 font-secondary text-mono-0 max-w-[300px]">
+                    Brontie is Ireland’s first café gifting platform — no app,
+                    no login, just simple gifting.
+                  </p>
+                  <div className="button-box max-w-[345px] relative mt-1 md:mt-[6px]">
                     <Image
-                      src="/images/icons/coffee-small-icon.svg"
-                      width={510}
-                      height={489}
-                      alt="icon"
-                      className="w-[119px]  hidden  md:block"
-                    />
-                  </span>
-                </h1>
-                <p className="desc text-[14px] nd:text-[20px] xl:text-[22px] font-normal md:max-w-[490px] leading-[130%] mt-4 md:mt-3 font-secondary text-mono-0 max-w-[300px]">
-                  Brontie is Ireland’s first café gifting platform — no app, no
-                  login, just simple gifting.
-                </p>
-                <div className="button-box max-w-[345px] relative mt-1 md:mt-[6px]">
-                  <Image
-                    src="/images/icons/angle-loto-arrow.svg"
-                    width={70}
-                    height={128}
-                    className="w-[35px] md:w-[70px] ml-[185px] md:ml-[329px]"
-                    alt="angle arrow model"
-                  />
-                  <div className="button-item relative">
-                    <Link
-                      className="bg-mono-0 flex relative z-[9] items-center max-w-[185px] h-[51px] md:h-auto md:max-w-[305px] w-full justify-center py-4 pl-[18px] pr-[15px] md:py-[27px] md:pl-[35px] md:pr-[19px] rounded-[11px] text-[14px] md:text-[22px] text-center font-secondary font-normal leading-[1]"
-                      href="/how-it-works"
-                    >
-                      Gift a Brontie today →
-                    </Link>
-                    <Image
-                      src="/images/icons/shadow-elisp.svg"
-                      width={233}
-                      height={41}
+                      src="/images/icons/angle-loto-arrow.svg"
+                      width={70}
+                      height={128}
+                      className="w-[35px] md:w-[70px] ml-[185px] md:ml-[329px]"
                       alt="angle arrow model"
-                      className="absolute -bottom-[45px] -left-[26px] right-0 mx-auto"
                     />
+                    <div className="button-item relative">
+                      <Link
+                        className="bg-mono-0 flex relative z-[9] items-center max-w-[185px] h-[51px] md:h-auto md:max-w-[305px] w-full justify-center py-4 pl-[18px] pr-[15px] md:py-[27px] md:pl-[35px] md:pr-[19px] rounded-[11px] text-[14px] md:text-[22px] text-center font-secondary font-normal leading-[1]"
+                        href="/how-it-works"
+                      >
+                        Gift a Brontie today →
+                      </Link>
+                      <Image
+                        src="/images/icons/shadow-elisp.svg"
+                        width={233}
+                        height={41}
+                        alt="angle arrow model"
+                        className="absolute -bottom-[45px] -left-[26px] right-0 mx-auto"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="banner-right-cont relative max-w-[755px] w-full">
-                <Image
-                  src="/images/banner-right-model-image.png"
-                  alt="banner right side modal image"
-                  width={1078}
-                  height={790}
-                  className="relative min-w-[950px]  z-20 left-0"
-                />
+                <div className="banner-right-cont relative max-w-[755px] w-full">
+                  <Image
+                    src="/images/banner-right-model-image.png"
+                    alt="banner right side modal image"
+                    width={1078}
+                    height={790}
+                    className="relative min-w-[950px]  z-20 left-0"
+                  />
+                </div>
               </div>
             </div>
+          </div>
+          <div className="shape-icon-box relative max-w-[1763px] mx-auto">
+            <Image
+              src="/images/shape/Coffee-Bean3.svg"
+              alt="banner lest shape layer model"
+              width={155}
+              height={171}
+              className="banner-left-shape-layer absolute -bottom-7 -left-5 md:-bottom-8 lg:-bottom-12 xl:-bottom-22 z-[96] md:-left-6 lg:-left-9 xl:-left-[45px] xl:w-[155px] w-[75px] md:w-[90px] lg:w-[120px]"
+            />
           </div>
         </section>
         <section
@@ -68,10 +80,26 @@ export default function Home() {
           id="howitworks"
         >
           <div className="bg-color-shape-area block md:hidden"></div>
+          <div className="shape-icon-box hidden md:block relative max-w-[1763px] mx-auto">
+            <Image
+              src="/images/shape/coffee-bean-1.svg"
+              alt="banner lest shape layer model"
+              width={138}
+              height={107}
+              className="banner-left-shape-layer absolute -bottom-0 xl:-bottom-18 z-[96] -right-[30px] lg:-right-[40px] w-[90px] lg:w-[138px]"
+            />
+          </div>
           <div className="custom-container relative z-[99]">
-            <div className="section-content-box mb-20 md:mb-[60px] lg:mb-20 xl:mb-[127px] text-center">
-              <h2 className="title text-mono-100 text-center text-[35px] md:text-[48px] lg:text-[56px] xl:text-[67px] font-primary font-normal leading-[120%]">
+            <div className="section-content relative-box mb-20 md:mb-[60px] lg:mb-20 xl:mb-[127px] text-center">
+              <h2 className="inline-block title relative text-mono-100 text-center text-[35px] md:text-[48px] lg:text-[56px] xl:text-[67px] font-primary font-normal leading-[120%]">
                 How it Works <span className="color-text block">(3 steps)</span>
+                <Image
+                  src="/images/shape/heart-modal-shape1.png"
+                  alt="banner lest shape layer model"
+                  width={162}
+                  height={172}
+                  className="banner-left-shape-layer absolute -bottom-8 md:bottom-4 lg:bottom-6 xl:bottom-0 z-[96] -left-14 md:-left-22 lg:-left-28 xl:-left-36 w-[80px] md:w-[90px] lg:w-[110px] xl:w-[138px]"
+                />
               </h2>
             </div>
             <div className="how-it-works-wrapper flex md:flex-row flex-col items-center  gap-[110px] md:gap-6 justify-between">
