@@ -124,7 +124,7 @@ const HeaderSection: React.FC = () => {
                       width={117}
                       height={46}
                       alt="brand logo"
-                      className="block"
+                      className="block w-[150px]"
                     />
                   </Link>
                 </div>

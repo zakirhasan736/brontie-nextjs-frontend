@@ -6,7 +6,7 @@ export default function Home() {
     <div className="home-page-main-wrapper">
       <div className="bg-wrapper-area overflow-hidden">
         <section className="banner-section relative">
-          <div className="banner-main-cont-box overflow-hidden pt-26 md:pt-[126px] lg:pt-[165px] md:pb-26 xl:pb-[80px] relative z-[99]">
+          <div className="banner-main-cont-box overflow-hidden pt-28 md:pt-[126px] lg:pt-[165px] md:pb-26 xl:pb-[80px] relative z-[99]">
             <div className="custom-container">
               <div className="banner-wrapper w-full flex flex-col md:flex-row items-center justify-between gap-6 md:gap-6">
                 <div className="banner-left-cont max-w-[635px] w-full">
