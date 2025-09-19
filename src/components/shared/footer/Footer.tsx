@@ -230,22 +230,12 @@ const FooterSection: React.FC = () => {
             whileHover={{ scale: 1.06 }}
             whileTap={{ scale: 0.96 }}
           >
-            {/* Up arrow (SVG) */}
-            <svg
-              width="22"
-              height="22"
-              viewBox="0 0 24 24"
-              fill="none"
-              aria-hidden="true"
-            >
-              <path
-                d="M12 5l-7 7m7-7l7 7M12 5v14"
-                stroke="white"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
+            <Image
+              src="/images/Coffee Cup.gif"
+              alt="loading image"
+              width={300}
+              height={300}
+            />
           </motion.button>
         )}
       </AnimatePresence>
