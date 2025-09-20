@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
 const BannerSection = () => {
   return (
@@ -12,22 +12,24 @@ const BannerSection = () => {
               <h1 className="title text-mono-0 leading-[1.2] text-normal text-[101px]">
                 Send a <span className="color-text">coffee</span> in <br />
                 <span className="text-img-box flex relative items-center">
-                  {/* shape-text */}
                   <span className="color-text">Seconds.</span>{' '}
+                  {/* Non-LCP decorative icon: keep lazy */}
                   <Image
                     src="/images/icons/coffee-small-icon.svg"
                     width={510}
                     height={489}
                     alt="icon"
                     loading="lazy"
-                    className="w-[119px]  hidden  md:block"
+                    className="w-[119px] hidden md:block"
                   />
                 </span>
               </h1>
+
               <p className="desc text-[16px] nd:text-[20px] xl:text-[22px] font-normal md:max-w-[490px] leading-[130%] mt-4 md:mt-3 font-secondary text-mono-0 max-w-[300px]">
                 Brontie is Ireland’s first café gifting platform — no app, no
                 login, just simple gifting.
               </p>
+
               <div className="button-box max-w-[345px] relative mt-1 md:mt-[6px]">
                 <Image
                   src="/images/icons/angle-loto-arrow.svg"
@@ -55,29 +57,43 @@ const BannerSection = () => {
                 </div>
               </div>
             </div>
+
+            {/* RIGHT: LCP image (above-the-fold) */}
             <div className="banner-right-cont relative max-w-[755px] w-full">
               <Image
                 src="/images/banner-right-model-image.png"
                 alt="banner right side modal image"
                 width={1078}
                 height={790}
-                className="relative min-w-[950px]  z-20 left-0"
+                className="relative z-20 left-0 md:min-w-[950px]"
+                // LCP boosters:
+                priority
+                loading="eager"
+                fetchPriority="high"
+                // Give the browser good art-direction for srcset selection:
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 755px"
+                // (Optional) If you have a blur placeholder generated at build time:
+                // placeholder="blur"
+                // blurDataURL="/images/banner-right-model-image-blur.jpg"
+                // decoding stays async by default in next/image
               />
             </div>
           </div>
         </div>
       </div>
+
       <div className="shape-icon-box relative max-w-[1763px] mx-auto">
         <Image
           src="/images/shape/Coffee-Bean3.svg"
-          alt="banner lest shape layer model"
+          alt="banner left shape layer model"
           width={155}
           height={171}
           className="banner-left-shape-layer absolute -bottom-7 -left-5 md:-bottom-8 lg:-bottom-12 xl:-bottom-22 z-[96] md:-left-6 lg:-left-9 xl:-left-[45px] xl:w-[155px] w-[75px] md:w-[90px] lg:w-[120px]"
+          loading="lazy"
         />
       </div>
     </section>
   );
-}
+};
 
-export default BannerSection
+export default BannerSection;
