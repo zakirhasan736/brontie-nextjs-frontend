@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Lobster } from 'next/font/google';
 import './globals.css';
+import Script from 'next/script';
 
 const lobster = Lobster({
   weight: '400',
@@ -21,7 +22,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* ✅ Apply Lobster font */}
+      <head>
+        {/* Cookiebot — must load before any tags that use cookies */}
+        <Script
+          id="usercentrics-cmp"
+          src="https://web.cmp.usercentrics.eu/ui/loader.js"
+          data-settings-id="tYvKBFyuVse4-B"
+          async
+        />
+      </head>
       <body className={`${lobster.className} coffeE-gift-main-wrapper-area`}>
         {children}
       </body>
