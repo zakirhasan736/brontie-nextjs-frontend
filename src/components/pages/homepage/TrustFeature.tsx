@@ -128,20 +128,20 @@ const TrustFeature = () => {
                 />
               </div>
 
-              <div className="trust-feature-cont pb-[19px] px-[10px] md:pb-[25px] lg:pb-[35px] xl:pb-[51px] md:px-[19px] pt-[15px] md:pt-[29px] bg-mono-0">
+              <div className="trust-feature-cont pb-[19px] px-[16px] md:pb-[25px] lg:pb-[35px] xl:pb-[51px] md:px-[19px] pt-[15px] md:pt-[29px] bg-mono-0">
                 <h3 className="text-[16px] md:text-[22px] lg:text-[26px] xl:text-[32px] text-left text-mono-100 font-bold font-secondary leading-[120%]">
                   {item.title}
                 </h3>
 
                 {/* Clamped excerpt on card */}
-                <p className="mt-4 text-[12px] md:text-[18px] lg:text-[19px] xl:text-[21px] text-mono-1000 text-left font-normal font-secondary leading-[130%] clamp-4">
+                <p className="mt-4 text-[14px] md:text-[18px] lg:text-[19px] xl:text-[21px] text-mono-1000 text-left font-normal font-secondary leading-[130%] clamp-4">
                   {item.excerpt}
                 </p>
 
                 <button
                   type="button"
                   onClick={() => openModal(item.id)}
-                  className="type-read-more hover:text-secondary-100 mt-[16px] cursor-pointer text-primary-100 underline text-[12px] md:text-[16px] lg:text-[19px] xl:text-[21px] text-left font-bold font-secondary leading-[130%]"
+                  className="type-read-more hover:text-secondary-100 mt-[16px] cursor-pointer text-primary-100 underline text-[14px] md:text-[16px] lg:text-[19px] xl:text-[21px] text-left font-bold font-secondary leading-[130%]"
                   aria-haspopup="dialog"
                   aria-controls={item.id}
                 >
