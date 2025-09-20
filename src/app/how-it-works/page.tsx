@@ -132,7 +132,7 @@ const HowItWorksPage = () => {
               </div>
               <div className="categories-section-wrapper max-w-[1169px] mx-auto relative z-[99]">
                 <ul className="available-category-lists flex flex-col gap-5 md:gap-6 lg:gap-[29px]">
-                  <li className="category-list-item relative hover:-top-[8px] top-0 transition-all ease-in-out duration-500 ">
+                  <li className="category-list-item relative cursor-not-allowed top-0 transition-all ease-in-out duration-500 ">
                     <Link
                       href="/"
                       className="flex items-center gap-5 justify-between border-[3px] border-[#6A9D9E] rounded-[12px] py-[10px] pl-[10px] pr-[17px] bg-mono-0"
@@ -176,7 +176,7 @@ const HowItWorksPage = () => {
                           alt="menu item image"
                           className="w-12 md:w-16 lg:w-[95px]"
                         />
-                        <p className="text-[19px] md:text[22px] lg:text-[26px] xl:text-[32px] text-left text-mono-100 font-primary font-normal leading-[100%]">
+                        <p className="text-[22px] md:text[22px] lg:text-[26px] xl:text-[32px] text-left text-mono-100 font-primary font-normal leading-[100%]">
                           Ticket & Passes{'  '}
                           {/* <span className="text-[11px] block lg:inline-block mt-1 md:mt-0 md:text[16px] lg:text-[18px] xl:text-[23px] text-left text-mono-100 font-secondary font-normal leading-[100%]">
                             ( Coffee, pastries, and delicious treats )

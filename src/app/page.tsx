@@ -6,7 +6,7 @@ export default function Home() {
     <div className="home-page-main-wrapper">
       <div className="bg-wrapper-area overflow-hidden">
         <section className="banner-section relative">
-          <div className="banner-main-cont-box overflow-hidden pt-28 md:pt-[126px] lg:pt-[165px] md:pb-26 xl:pb-[80px] relative z-[99]">
+          <div className="banner-main-cont-box overflow-hidden pt-26 md:pt-[126px] lg:pt-[145px] xl:pt-[125px] pb-10 md:pb-32 xl:pb-[80px] relative z-[99]">
             <div className="custom-container">
               <div className="banner-wrapper w-full flex flex-col md:flex-row items-center justify-between gap-6 md:gap-6">
                 <div className="banner-left-cont max-w-[635px] w-full">
@@ -24,7 +24,7 @@ export default function Home() {
                       />
                     </span>
                   </h1>
-                  <p className="desc text-[14px] nd:text-[20px] xl:text-[22px] font-normal md:max-w-[490px] leading-[130%] mt-4 md:mt-3 font-secondary text-mono-0 max-w-[300px]">
+                  <p className="desc text-[16px] nd:text-[20px] xl:text-[22px] font-normal md:max-w-[490px] leading-[130%] mt-4 md:mt-3 font-secondary text-mono-0 max-w-[300px]">
                     Brontie is Ireland’s first café gifting platform — no app,
                     no login, just simple gifting.
                   </p>
@@ -38,7 +38,7 @@ export default function Home() {
                     />
                     <div className="button-item relative">
                       <Link
-                        className="bg-mono-0 hover:opacity-70 flex relative z-[9] items-center max-w-[185px] h-[51px] md:h-auto md:max-w-[305px] w-full justify-center py-4 pl-[18px] pr-[15px] md:py-[27px] md:pl-[35px] md:pr-[19px] rounded-[11px] text-[14px] md:text-[22px] text-center font-secondary font-normal leading-[1]"
+                        className="bg-mono-0 hover:opacity-70 flex relative z-[9] items-center max-w-[195px] h-[51px] md:h-auto md:max-w-[270px] xl:max-w-[305px] w-full justify-center py-4 pl-[18px] pr-[15px] md:py-[20px] xl:py-[27px] md:pl-[35px] md:pr-[19px] rounded-[11px] text-[16px] md:text-[20px] xl:text-[22px] text-center font-secondary font-normal leading-[1]"
                         href="/how-it-works"
                       >
                         Gift a Brontie today →

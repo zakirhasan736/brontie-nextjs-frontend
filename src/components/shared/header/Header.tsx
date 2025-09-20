@@ -285,13 +285,13 @@ const HeaderSection: React.FC = () => {
                   width={234}
                   height={93}
                   alt="brand logo"
-                  className="sm:block hidden lg:w-[150px] xl:w-[160px]"
+                  className="sm:block hidden lg:w-[150px] xl:w-[140px]"
                 />
               </Link>
             </div>
 
             {/* Desktop menu */}
-            <ul className="nav-manu-list hidden lg:flex flex-col lg:flex-row gap-[15px] items-center lg:gap-[18px] pb-1">
+            <ul className="nav-manu-list hidden lg:flex flex-col lg:flex-row gap-[15px] items-center lg:gap-[18px] pb-0">
               {navItems.map(item => (
                 <li key={item.href}>
                   <Link
