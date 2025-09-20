@@ -6,8 +6,8 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { PRODUCTS, type Product } from '@/data/products';
 
-type Category = 'All Items' | 'Willow & Wild' | 'Cafe 2';
-const CATEGORIES: Category[] = ['All Items', 'Willow & Wild', 'Cafe 2'];
+type Category = 'All Items' | 'Willow & Wild';
+const CATEGORIES: Category[] = ['All Items', 'Willow & Wild'];
 
 export default function AvailableGifts() {
   const [activeTab, setActiveTab] = useState<Category>('All Items');
@@ -17,8 +17,7 @@ export default function AvailableGifts() {
   const ulRef = useRef<HTMLUListElement | null>(null);
   const tabRefs = useRef<Record<Category, HTMLLIElement | null>>({
     'All Items': null,
-    'Willow & Wild': null,
-    'Cafe 2': null,
+    'Willow & Wild': null
   });
   const [underline, setUnderline] = useState<{ left: number; width: number }>({
     left: 0,
@@ -97,10 +96,10 @@ export default function AvailableGifts() {
                         idx === 0
                           ? 'border-b-[5px] border-b-[#f4c16f88] pl-[68px] pr-[50px] text-[16px] lg:text-[19px] text-center font-normal font-secondary'
                           : '',
+                        // idx === 1
+                        //   ? 'text-[16px] lg:text-[19px] px-[17px] border-b-[5px] border-b-[#f4c16f88] font-normal font-secondary text-center'
+                        //   : '',
                         idx === 1
-                          ? 'text-[16px] lg:text-[19px] px-[17px] border-b-[5px] border-b-[#f4c16f88] font-normal font-secondary text-center'
-                          : '',
-                        idx === 2
                           ? 'border-b-[5px] border-b-[#f4c16f88]  pr-[68px] pl-[50px] text-[16px] lg:text-[19px] text-center font-normal font-secondary'
                           : '',
                         // ACTIVE TEXT COLOR
