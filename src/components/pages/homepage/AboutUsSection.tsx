@@ -52,7 +52,7 @@ const AboutUsSection = () => {
                    </span>
                  </div>
                  <Link
-                   href="/hoq-it-works"
+                   href="/how-it-works"
                    className="font-secondary hover:opacity-70 font-normal mt-0 md:mt-[36px] xl:h-[84px]  h-[50px] md:h-[58px] flex items-center justify-center leading-[1] text-[14px]  md:text-[18px] lg:text-[20px] xl:text-[22px] text-center text-mono-100 bg-secondary-100 max-w-[162px] md:max-w-[230px] xl:max-w-[272px] w-full ml-0 rounded-[12px] xl:rounded-[18px] py-3 xl:py-[27px] pl-[32px] pr-[17px]"
                  >
                    Go to Gifts →

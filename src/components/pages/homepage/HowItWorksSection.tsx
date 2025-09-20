@@ -78,7 +78,7 @@ const HowItWorksSection = () => {
           </div>
 
           {/* STEP 2 */}
-          <div className="how-its-work-card-item relative flex flex-col justify-center max-w=[388px] w-full">
+          <div className="how-its-work-card-item relative flex flex-col justify-center max-w-[388px] w-full">
             <div className="img-box relative flex justify-center max-w-[130px] w-full mx-auto">
               <span className="text-[14px] md:text-[18px] lg:text-[26px] font-normal font-secondary text-mono-100 w-7 md:w-9 h-7 md:h-9 lg:w-[46.64px] absolute -top-5 left-3 md:-top-7 md:-left-4 lg:h-[46.64px] rounded-full bg-secondary-100 items-center flex justify-center">
                 2
@@ -121,7 +121,7 @@ const HowItWorksSection = () => {
               </span>
               {/* NOTE: rename this file to remove the space to avoid odd network behavior */}
               <Image
-                src="/images/icons/ready-coffee-for-receiver.svg"
+                src="/images/icons/ready-coffee-for-recever.svg"
                 alt="They redeem it in-store"
                 width={139}
                 height={102}

@@ -14,9 +14,8 @@ const GiftCategorySection = () => {
         <div className="categories-section-wrapper max-w-[1169px] mx-auto relative z-[99]">
           <ul className="available-category-lists flex flex-col gap-5 md:gap-6 lg:gap-[29px]">
             <li className="category-list-item relative cursor-not-allowed top-0 transition-all ease-in-out duration-500 ">
-              <Link
-                href="/"
-                className="flex items-center gap-5 justify-between border-[3px] border-[#6A9D9E] rounded-[12px] py-[10px] pl-[10px] pr-[17px] bg-mono-0"
+              <div
+                className="flex items-center cursor-not-allowed  gap-5 justify-between border-[3px] border-[#6A9D9E] rounded-[12px] py-[10px] pl-[10px] pr-[17px] bg-mono-0"
               >
                 <div className="flex items-center gap-2 md:gap-8 lg:gap-[29px]">
                   {' '}
@@ -41,11 +40,10 @@ const GiftCategorySection = () => {
                   width={64}
                   height={64}
                 />
-              </Link>
+              </div>
             </li>
             <li className="category-list-item relative  top-0 transition-all ease-in-out duration-500 ">
-              <Link
-                href="/"
+              <div
                 className="flex cursor-not-allowed items-center gap-5 justify-between border-[3px] border-[#6A9D9E] rounded-[12px] py-[10px] pl-[10px] pr-[17px] bg-mono-0 opacity-[33%]"
               >
                 <div className="flex items-center gap-2 md:gap-8 lg:gap-[29px]">
@@ -71,7 +69,7 @@ const GiftCategorySection = () => {
                   width={64}
                   height={64}
                 />
-              </Link>
+              </div>
               <button
                 type="button"
                 className="rounded-full text-[12px] md:text[16px] lg:text-[18px] xl:text-[23px] absolute top-0 bottom-0 my-auto right-16 md:right-[198px] font-normal font-secondary text-center text-mono-100 lg:h-[60px] max-w-[68px] h-[25px] md:max-w-[120px] md:h-[48px] lg:max-w-[190px] w-full flex items-center justify-center px-[30px] py-2 bg-[#F4C24D80] border border-[#F4C24D80]"
@@ -80,8 +78,7 @@ const GiftCategorySection = () => {
               </button>
             </li>
             <li className="category-list-item relative  top-0 transition-all ease-in-out duration-500 ">
-              <Link
-                href="/"
+              <div
                 className="flex items-center  cursor-not-allowed gap-5 justify-between border-[3px] border-[#6A9D9E] rounded-[12px] py-[10px] pl-[10px] pr-[17px] bg-mono-0 opacity-[33%]"
               >
                 <div className="flex items-center gap-2 md:gap-8 lg:gap-[29px]">
@@ -107,7 +104,7 @@ const GiftCategorySection = () => {
                   width={64}
                   height={64}
                 />
-              </Link>
+              </div>
               <button
                 type="button"
                 className="rounded-full text-[12px] md:text[16px] lg:text-[18px] xl:text-[23px] absolute top-0 bottom-0 my-auto right-16 md:right-[198px] font-normal font-secondary text-center text-mono-100 lg:h-[60px] max-w-[68px] h-[25px] md:max-w-[120px] md:h-[48px] lg:max-w-[190px] w-full flex items-center justify-center px-[30px] py-2 bg-[#F4C24D80] border border-[#F4C24D80]"
